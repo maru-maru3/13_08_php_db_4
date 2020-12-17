@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(185, 223, 210);
+    /* font-size: 14px; */
+    initial-letter: 5px;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+}
+
+a {
+text-decoration: none;
+}
+
+
+button{
+    width:90px;
+    height:30px;
+}
+
+.img{
+width: 200px;
+
+}
+
+
+
+fieldset{
+    padding: 20px;
+    margin: 20px;
+}
+
+.form{
+ padding: 20px;
+
+}
+
+.radio-bt{
+	display: flex;
+    flex-direction: row;
+}
+
+ul{
+   list-style-type: none;
+}
+
+.form-wrapper{
+	display: flex;
+	justify-content: center;
+}
+
+.form-box1{
+       background-color:white;
+       border-radius: 10px;
+}
+
+.form-box2{
+    width:40%;
+      display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.form-bt{
+        margin: 0 auto;
+        text-align: center;
+}

@@ -1,0 +1,146 @@
+body{
+    background-color: rgb(165, 191, 238);
+    }
+
+a {
+text-decoration: none;
+}
+
+button{
+    width:90px;
+    height:30px;
+}
+
+tbody{
+    font-size: 12px;
+    width:300px;
+}
+
+p{
+    line-height: 10px;
+}
+
+.text{
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.wrapper{
+    text-align: center;
+}
+
+.all-wrapper{
+   margin:30px;
+    padding:30px;
+    background-color: cornsilk;
+    width:500px;
+    height:100%;
+    /* 角丸 */
+    border-radius: 10px;
+
+    display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+
+.wrapper{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.record-wrapper{
+   display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.record-box1{
+    width:60%;
+}
+
+.record-box2{
+    width:100px;
+}
+
+.ghost{
+    width:250px;
+}
+
+
+
+.form-box{
+/* display: flex; */
+justify-content: center;
+align-items: center;
+}
+
+
+.form-box3{
+    margin:30px;
+    padding:30px;
+    background-color: cornsilk;
+    width:500px;
+    height:100%;
+    /* 角丸 */
+    border-radius: 10px;
+}
+
+h1{
+    font-size: 15px;
+    text-align: center;
+    /* letter-spacing: 3px; */
+}
+
+.content{
+    padding:2px;
+    font-size: 12px;
+    background-color: darkturquoise;
+}
+
+
+
+/* フキダシCSS */
+.arrow_box{
+    position:relative;
+    width:230px;
+    /* height:400px; */
+    background:#6A5ACD;
+    padding:10px;
+    text-align:left;
+    color:#FFFFFF;
+    font-size:12px;
+    /* フキダシの角丸 */
+    border-radius: 5px;
+}
+.arrow_box:after{
+    border: solid transparent;
+    content:'';
+    height:0;
+    width:0;
+    pointer-events:none;
+    position:absolute;
+    border-color: rgba(106, 90, 205, 0);
+    border-top-width:10px;
+    border-bottom-width:10px;
+    border-left-width:10px;
+    border-right-width:10px;
+    margin-left: -10px;
+    border-top-color:#6A5ACD;
+    top:100%;
+    left:50%;
+}
+
+
+/* 縦スクロール */
+/* それを消す */
+
+.wrap{
+  /* background:#efefef;分かりやすく背景色つけた */
+  width: 300px;
+  height: 100%;
+}
+

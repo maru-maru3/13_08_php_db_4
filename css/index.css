@@ -1,0 +1,93 @@
+body{
+/* 行間 */
+line-height: 17px;
+/* 隙間なくし全面 */
+margin: 0;
+    background-color: rgb(185, 223, 210);
+    font-size: 14px;
+}
+
+a{
+    /* リンク下線消す */
+    text-decoration: none;
+    font-size: 12px;
+}
+
+button{
+    width:90px;
+    height:30px;
+}
+
+ul li {
+    list-style: none;
+}
+
+label {
+    margin-right: 10px;
+    width:300px;
+    float: left;
+}
+
+/* ある程度のフォーマット部分、ここまで */
+fieldset{
+    padding: 20px;
+    margin: 20px;
+}
+
+.form-wrapper{
+    /* 画像など上下左右中央揃え */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-wrapper-logout{
+    vertical-align: middle;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.space-box{
+    height:300px;
+}
+
+.form-box1{
+       background-color: rgb(141, 196, 141);
+       width:340px;
+              margin:20px;
+              border-radius: 10px;
+       
+}
+
+.form-box2{
+    height:400px;
+}nkj
+
+.index-form{
+    text-align: center;
+}
+
+
+.form-bt{
+        margin: 0 auto;
+        text-align: center;
+}
+
+textarea {
+  resize: none;
+  width:300px;
+  height:200px;
+}
+
+.form{
+    text-align: center;
+    padding:10px;
+}
+
+h1{
+    font-size: 18px;
+    text-align: center;
+}
